@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">App3</string>
+    <string name="h1">Welcome to Burger Making App</string>
+    <string name="h2">Make and Order Your Own Burger By Selecting The Ingredients Below And Pressing The Order Button</string>
+    <string name="h3">Plain burger price: £6</string>
+    <string name="h4">Ingredients selected:</string>
+    <string name="h5">Total price:</string>
+    <string name="total">""</string>
+    <string name="ingredient1">Cheese (£1.5)</string>
+    <string name="ingredient2">Tomatoes (£1)</string>
+    <string name="ingredient3">Lettuce (£1)</string>
+    <string name="ingredient4">Pickles (£1)</string>
+    <string name="ingredient5">Onion (£1)</string>
+    <string name="ingredient6">Ketchup (£0.5)</string>
+    <string name="button1">Order Your Burger</string>
+    <string name="button2">Clear Order</string>
+
+
+</resources>
