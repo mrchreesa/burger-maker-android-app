@@ -6,6 +6,7 @@ import android.widget.CheckBox
 import android.widget.ImageView
 import android.widget.LinearLayout
 import android.widget.TextView
+import android.widget.Toast
 import androidx.appcompat.app.AlertDialog
 import androidx.appcompat.app.AppCompatActivity
 import java.text.NumberFormat
@@ -69,6 +70,7 @@ class MainActivity : AppCompatActivity() {
                     resources.getDimensionPixelSize(R.dimen.ingredient_image_size)
                 ).apply {
                     setMargins(0, 0, 8, 0)
+                    
                 }
                 scaleType = ImageView.ScaleType.FIT_CENTER
                 adjustViewBounds = true
@@ -114,7 +116,10 @@ class MainActivity : AppCompatActivity() {
             .setMessage("Your total order amount is $formattedPrice")
             .setPositiveButton("Pay Now") { dialog, _ ->
                 dialog.dismiss()
+                Toast.makeText(this, "Congratulations! Your Order Is Placed!", Toast.LENGTH_SHORT).show()
+                clearOrder()
             }
+
             .show()
 
     }

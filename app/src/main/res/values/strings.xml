@@ -14,6 +14,7 @@
     <string name="ingredient6">Ketchup (£0.5)</string>
     <string name="button1">Order Your Burger</string>
     <string name="button2">Clear Order</string>
+    <string name="burger_image_description">Burger Image</string>
 
 
 </resources>
